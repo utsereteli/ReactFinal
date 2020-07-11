@@ -1,0 +1,31 @@
+.registration {
+    width: 100%;
+    padding:5rem 10rem 10rem 10rem;
+    background-color: #2C2C2C;
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .custom-input {
+        margin-bottom: 4rem;
+    }
+
+    .custom-button--red {
+        margin-top: 2rem;
+    }
+
+    &__suggestion {
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    &__text {
+        margin-bottom: 1rem;
+    }
+
+}

@@ -1,0 +1,13 @@
+.post-main {
+    width: 100%;
+    padding:5rem 10rem 10rem 10rem;
+    background-color: #2C2C2C;
+
+    &__posts {
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+}
